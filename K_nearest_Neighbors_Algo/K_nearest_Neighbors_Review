@@ -1,0 +1,10 @@
+Parameters to consider: number of neighbors (in practice: often from 3 to 5, but should be adjusted), distance measurement between data points
+
+Strengths: - Easy to understand
+           - Often gives reasonable performance without a lot of adjustments
+           - Used as good baseline method to try before considering more advanced techniques
+          
+Weaknesses: - Prediction can be low when training set is large (either in num of features or num of samples)
+            - Important to pre-process the data
+            - Bad perfomance on datasets with many features (>100)
+            - Bad perfomance on datasets with most features are 0 most of the time (sparse datasets)
